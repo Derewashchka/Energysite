@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Caveat;
+    src: url(Caveat-VariableFont_wght.ttf);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #339233, #3CB371);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+main {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 100px;
+}
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #e7eaef;
+}
+a {
+    text-decoration: none;
+}
+a.title {
+    color: #003300;
+}
+a.title:hover {
+    color: #339233;
+}
+p {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    padding: 15px 0px;
+    margin: 20px;
+    color: #003300;
+    text-align: center;
+}
+.tit {
+    text-align: justify;
+    text-indent: 5%;
+}
+.text-green {
+    color: #1d5517;
+}
+.logo {
+    font-size: 3rem;
+}
+.pop {
+    line-height: 28px;
+    margin: 0px;
+    font-size: 22px;
+    text-align: justify;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mainDiv {
+    width: 80%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+div.textDiv {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+div.ent {
+    width: 100%;
+    height: 20px;
+}
+.entry {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    background-color: #fff;
+    border: none;
+    width: 90%;
+    padding: 18px 23px;
+    margin-top: -90px;
+    margin-left: -5px;
+    border-radius: 0 4px 0 0;
+}
+div.nes {
+    text-align: center;
+    transition: transform 0.25s;
+    transform: scale(0.95);
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+div.nes:hover {
+    transform: scale(0.85);
+}
+p.nes {
+    color: #e7eaef;
+}
+.text_d p{
+    font-size: 2rem;
+    font-family: Caveat;
+}
+.img100 {
+    background-size: 100%;
+    height: 350px;
+    background-image: url(lrx.png);
+    background-repeat: no-repeat;
+}
+.img80 {
+    width: 70%;
+    height: auto;
+}
+.img_hov {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: outline 0.25s;
+}
+.img_hov:hover {
+    outline: 5px solid #65994C;
+}
+.nav-b:hover {
+    text-decoration: underline;
+    color: #1d5517;
+}
