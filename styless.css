@@ -133,3 +133,16 @@ p.nes {
     text-decoration: underline;
     color: #1d5517;
 }
+.bord {
+    border: 1px solid #339233;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 25%;
+    height: 32px;
+    margin-left: 5px;
+    font-size: 1.2rem;
+    transition: border 0.25s;
+}
+.bord:hover {
+    border: 2px solid #339233;
+}
